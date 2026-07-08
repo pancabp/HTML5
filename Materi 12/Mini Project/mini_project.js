@@ -2,7 +2,6 @@ const http = require("http");
 
 const PORT = 3000;
 
-// Template HTML sederhana agar setiap halaman punya tampilan konsisten
 function layout(title, content) {
   return `
   <!DOCTYPE html>
